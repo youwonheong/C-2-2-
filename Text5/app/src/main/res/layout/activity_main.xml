@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0067a3"
+        android:text="안녕하세요. 인천정보산업고등학교 3학년 2반 유원형입니다."
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴보기"
+        android:id="@+id/button3"
+        android:onClick="onMenuButtonClicked"
+        android:textSize="30dp"
+        android:background="#ffff00"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="인천정보산업고등학교 홈페이지"
+        android:onClick="onPageButtonClicked"
+        android:id="@+id/button5"
+        />
+
+</LinearLayout>
